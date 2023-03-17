@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>camisetas</title>
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<meta charset="UTF-8">
+<script type="text/javascript" src="archivos.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Days+One&family=Kaisei+Opti:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<nav  class="barra">
+
+
+<a href="" class="foto">Camisetas</a>
+    <a href="" class="otrasCamisetas"> Otras camisetas </a>
+    <a href="" class="sobreNos"> Sobre nosotros</a>
+    <a href="" class="con"> Redes sociales</a>
+
+
+    <div class="carrito">
+        <button class="car" onclick="carro()"> <img src="https://cdn-icons-png.flaticon.com/512/4175/4175270.png" class="carro" alt=""> </button>
+        
+    </div>
+</nav>
+
+<div class="fotos">
+
+    <img class="fot" src="https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v7536708450481482764/products/Camiseta_titular_Argentina_3_estrellas_2022_Blanco_IB3593_01_laydown.jpg&height=940&width=940">
+
+    <div class="todas">
+    <img onclick="agrandar(this.src)" src="https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v7536708450481482764/products/Camiseta_titular_Argentina_3_estrellas_2022_Blanco_IB3593_01_laydown.jpg&height=940&width=940">
+    <img onclick="agrandar(this.src)" src="https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v4689249218037131319/products/Camiseta_titular_Argentina_3_estrellas_2022_Blanco_IB3593_02_laydown.jpg&height=940&width=940">
+    <img onclick="agrandar(this.src)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEhUKlIzbdjoC1hSbd-9vBmbptm-67y6ag0p7DgWfhxeJrROHmvncAOdVb2_CMQdLR3No&usqp=CAU">
+    <img onclick="agrandar(this.src)" src="https://www.corrienteshoy.com/galeria/fotos/2022/12/26/l_1672053533.jpg">
+    </div>
+    </div>
+    
+</div>
+
+<p class="pagCarro" id="pagar">1</p>
+<div class="ag" id="agran" >
+    <button id="boton" class="agran" onclick="traer()" >X</button>
+    <img  id="ex" class="ex" src="https://www.afashop.com.ar/ccstore/v1/images/?source=/file/v7536708450481482764/products/Camiseta_titular_Argentina_3_estrellas_2022_Blanco_IB3593_01_laydown.jpg&height=940&width=940">
+</div>
+
+<section class="general" >
+
+    <div class="productos">Camiseta de la seleccion Argentina 2022</div>
+    <div class="descripcion" >CELEBRÁ LA VICTORIA CON ESTA CAMISETA HECHA CON UNA MEZCLA DE MATERIALES RECICLADOS Y RENOVABLES.<br><br>
+        Vestite como un campeón. A lo largo de la historia del fútbol, 
+        la Albiceleste ha representado un juego y un compromiso incomparables.Diseñada para hinchas, ofrece comodidad en todo momento gracias a su tejido suave con tecnología de absorción AEROREADY. 
+        La insignia de campeón del Mundo y la tercera estrella sobre el escudo confirman una victoria memorable.</div>
+    <div class="precios"> 
+        <p class="precioAhora"> $13.000 </p>  
+        <p class="precioOtro"> $22.000 </p> 
+        <p class="ahorra"> - 40% </p>
+
+
+
+
+
+
+    </div>
+    <div class="boton">
+        <button class="mas" onclick="mas()">+</button>
+        <div class="prod"><input type="number" class="tex" id="tex" value="0"></div>
+        <button class="menos" onclick="menos()">-</button>
+        <button class="hacer" onclick="ag(), pag()" >Agregar al carro</button>
+    </div>
+
+    
+</section>
+<div class="verCar" id="pro">
+<div class="verCarro">
+<p class="arr">CARRO</p>
+<p class="pro">PRODUCTOS</p>
+<p class="pagar"> TOTAL: </p>
+
+<p class="pag" id="pag">0</p>
+<div class="productosCarro" >
+
+
+    <div class="cam" id="prod"> Camiseta de la Seleccion Argentina 2022 <p class="ar" id="ar" ></p></div>
+    
+</div>
+<div class="bot" ><p class="texBot">CONTINUAR CON LA COMPRA</p></div>
+<button class="botCarro" onclick="bot()">X</button>
+</div>
+
+
+</div>
+</body>
+</html>
