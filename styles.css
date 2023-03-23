@@ -386,6 +386,10 @@ transform: scale(1.1);
 .contactos{
     display: none;
 }
+
+.menu{
+    display: none;
+}
 .rar{
     display: none;
 }
