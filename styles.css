@@ -25,7 +25,7 @@
     height:22vh;
     margin-left: 4%;
     position: absolute;
-    margin-top: 4vh;
+    margin-top: 0vh;
     font-family: arial;
     font-size: 30px;
     font-weight: 800;
@@ -39,7 +39,7 @@
     
     position: absolute;
     margin-left: 2%;
-    margin-top: 28vh;
+    margin-top: 23vh;
     font-family: arial;
     font-size: 16px;
     font-weight: 500;
@@ -72,7 +72,7 @@
     
     position:absolute;
     margin-left: 4%;
-    margin-top: 73vh;
+    margin-top: 70vh;
     display: flex;
 }
 .foto{
@@ -209,7 +209,7 @@ color:grey
 }
 .todas{
     width: 40%;
-    height: 30vh;
+    height: 23vh;
     display: flex;
     padding-top: 3vh;
     margin-left: -8%;
@@ -252,6 +252,21 @@ color:grey
     margin-top: 10vh;
     border-radius: 13px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .agran{
     width: 3%;
     height:8vh; 
@@ -266,10 +281,6 @@ color:grey
     background-color: transparent;
     border: none;
 }
-
-
-
-
 
 .fot:hover{
     transform: scale(1.3)
@@ -366,8 +377,9 @@ transform: scale(1.1);
 }
 
 
-
-
+.rar{
+    display: none;
+}
 .cam{
     margin-left: 3%;
     margin-top: 3vh;
@@ -410,4 +422,604 @@ transform: scale(1.1);
     color: white;
     font-weight: 800;
     display: none;
+}
+@media only screen and (max-width: 1200px){
+
+.productos{
+    width: 40%
+}
+.descripcion{
+    width: 43%;
+    margin-top: 18vh;
+    font-size: 17px;
+}
+
+.fot{
+    width: 93%;
+    margin-left: -3%;
+    height: 50vh;
+}
+.precios{
+    margin-left: 8%;
+    margin-top: 50vh;
+}
+.ahorra{
+    margin-left: 38%;
+    width: 22%
+}
+.boton{
+    margin-left: 10%;
+    margin-top: 63vh;
+}
+.todas img{
+    width: 60%;
+    height: 17vh;
+}
+.otrasCamisetas{
+    margin-left: 30%;
+    font-size: 20px;
+    
+}
+.sobreNos{
+    margin-left: 50%;
+    font-size: 20px;
+}
+
+
+
+
+.con{
+    margin-left: 69%;
+    font-size: 20px;
+}
+.car{
+    width:6%;
+    margin-left: 89%;
+}
+
+
+
+
+
+.foto{
+margin-left: 3%;
+margin-top: 4vh;
+font-size: 43px;
+}
+.verCarro{
+    width: 49%;
+    margin-left: 23%;
+}
+.bot{
+    height: 10vh;
+}
+.pagar{
+    margin-left: 70%;
+}
+.ar{
+    margin-left: 113%;
+    margin-top: -7vh;
+}
+.cam{
+    width: 80%
+}
+.botCarro{
+    margin-left: 120%;
+}
+    .pag{
+        margin-left:86%
+}
+.pagCarro{
+    margin-left: 89%;
+}
+.carro{
+    margin-left: -13%;
+    
+}
+.verCar{
+    width: 113%
+}
+}
+@media only screen and (max-width: 800px){
+
+    .productos{
+        width: 60%;
+        margin-left: 3%;
+        font-size: 28px;
+    }
+    .descripcion{
+        width: 50%;
+        margin-left: 7%;
+        font-size: 14px;
+    }
+
+    .fot{
+        width: 103%;
+        height: 60vh;
+    }
+    .precios{
+        margin-left: 13%;
+        margin-top: 60vh;
+    }
+    .boton{
+        margin-left: 13%;
+        margin-top: 77vh;
+        width: 43%
+    }
+    .ahorra{
+        margin-left: 48%;
+        margin-top: -13vh;
+        width:30%;
+    }
+    .car{
+        width: 7%;
+        margin-left: 103%;
+    }
+    .foto{
+        width: 23%;
+        font-size: 40px;
+        margin-top: 4vh;
+    }
+
+
+
+
+
+    .otrasCamisetas{
+        margin-left: 38%;
+        margin-top: 9vh;
+        font-size: 13px;
+        width: 20%
+    }
+.sobreNos{
+    margin-left: 60%;
+    margin-top: 9vh;
+    font-size: 13px;
+    width: 20%
+}
+
+
+
+
+
+.con{
+    margin-left: 81%;
+    margin-top: 9vh;
+    font-size: 13px;
+    width: 20%
+}
+
+.todas img{
+    width: 80%;
+    height: 23vh
+}
+.pagCarro{
+    margin-left: 103%;
+    width: 3%;
+}
+.verCarro{
+    width: 60%;
+    height:80vh;
+    margin-left: 17%;
+}
+.pagar{
+    margin-left: 70%;
+}
+
+.pag{
+    margin-left: 86%;
+}
+.bot{
+    height: 10vh;
+    width: 73%;
+    margin-left: 13vh;
+    margin-top: 8vh;   
+}
+
+.ar{
+    margin-left: 103%;
+    margin-top: -7vh;
+}
+.todas{
+    margin-left: -13%;
+}
+.bar{
+    display: none;
+}
+.ra{
+    display: none;
+}
+.botCarro{
+    font-weight: 800;
+    margin-left: 113%;
+    margin-top: -60vh;
+}
+
+
+
+
+.verCar{
+    width:130%
+}
+}
+@media only screen and (max-width:500px){
+    .foto{
+        width: 100%;
+        font-size: 60px;
+        margin-left: 28%;
+    }
+    .car{
+        width:23%;
+        margin-left: 123%;
+        margin-top: 3vh;
+    }
+    .fot{
+        width: 370%;
+        height: 90vh;
+        margin-left: -28%;
+    }
+    .todas{
+        width: 90%;
+        height: 43vh;
+        margin-left: -23%;
+    }
+    .todas img{
+        width: 97%;
+        height: 30vh;
+    }
+    .productos{
+        width: 130%;
+        margin-top: 130vh;
+        margin-left: -43%;
+        font-size: 48px;
+    }
+    .descripcion{
+        margin-top: 170vh;
+        margin-left: -47%;
+        width: 140%;
+        font-size: 23px;
+
+    }
+    .precios{
+        margin-left: 3%;
+        margin-top: 230vh;
+    }
+    .precioAhora{
+        font-size: 60px;
+        margin-left: -113%;
+    }
+    .car{
+        margin-left: 120%;
+    }
+    .precioOtro{
+        margin-left: 190%;
+        margin-top: -23vh;
+        font-size: 30px;
+    }
+    .boton{
+        margin-left: -34%;
+        margin-top: 248vh;
+        width: 123%;
+    }
+    .menos{
+        width: 30%;
+        height: 13vh;
+        
+    }
+    .mas{
+        width: 30%;
+        height: 13vh;
+        margin-left: 0%
+    }
+    .tex{
+        width: 103%;
+        height: 13vh;
+        margin-top: 0vh;
+        margin-left: 43%;
+    }
+    .prod{
+        width: 30%;
+        height: 13vh;
+    }
+    .hacer{
+        width: 97%;
+        height: 13vh;
+        position: absolute;
+        margin-top: 20vh;
+        margin-left: -4%;
+        font-size: 22px;
+}
+.ahorra{
+    width: 43%;
+    margin-left: 123%;   
+}
+.pagCarro{
+    width: 10%;
+    height: 4vh;
+    margin-left: 120%;
+    font-size: 23px;
+}
+.verCarro{
+    width:89%;
+    height:80vh;
+    margin-top: 50vh;
+    margin-left: 7%;
+    
+}
+.verCar{
+    width: 150%;
+    height: 340vh
+}
+.bot{
+    width: 80%;
+    margin-left: 10%;
+}
+.texBot{
+    margin-left: 20%;
+}
+.botCarro{
+    margin-left: 90%;
+    margin-top:-70vh;
+}
+
+.men{
+    width: 83%;
+    height: 313vh;
+    background-color: white;
+    z-index: 3;
+    margin-top: -113vh;
+    margin-left: -3%;
+    position: absolute;
+}
+.tar{
+    width: 73%;
+    height: 313vh;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1;
+    margin-left: 97%;
+    margin-top: -20vh;
+}
+.otras{
+    width: 89%;
+    font-family: 'Days One', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: 13%;
+    margin-top: 23vh;
+    position: absolute;
+    color: grey;
+}
+.sobre{
+    width:89%;
+    font-family: 'Days One', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: 13%;
+    margin-top: 41vh;
+    position:absolute;
+    color:grey
+}
+.contactos{
+    font-family: 'Days One', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: 13%;
+    margin-top: 60vh;
+    position: absolute;
+    color: grey;
+}
+.menu{
+    width:30%;
+    margin-left: 80%;
+    margin-top: 10vh;
+    color: grey;
+    font-size: 43px;
+    font-family: 'Courier New';
+    font-weight: 900;
+    cursor: pointer;
+}
+.bar{
+    display: none;
+}
+.rar{
+    width: 13%;
+    height: 8vh;
+    margin-left: 6%;
+    margin-top: -97vh;
+    position: absolute;
+    cursor: pointer;
+    
+}
+
+
+
+.ra{
+    display: block;
+}
+
+
+
+.otrasCamisetas{
+    display: none;
+} 
+
+
+
+.sobreNos{
+    display: none;
+}
+
+
+
+.con{
+    display: none;
+}
+}
+@media only screen and (max-width:340px){
+.foto{
+    font-size: 43px;
+    margin-left: 23%;
+}
+.fot{
+    margin-top: -3vh;
+    width: 360%
+}
+
+
+
+
+
+
+
+
+
+.productos{
+    width: 123%;
+    font-size: 43px;
+    margin-left: -43%;
+    margin-top: 123vh;
+}
+.sobreNos{
+    display: none;
+}
+.otrasCamisetas{
+    display: none;
+}
+
+.ra{
+    display: block;
+}
+
+.con{
+    display: none;
+}
+
+.prod{
+    width:30%
+}
+.descripcion{
+    width: 123%;
+    margin-left: -43%;
+    font-size: 20px;
+    margin-top: 160vh;
+}
+.precioAhora{
+font-size: 40px;
+margin-left: -130%;
+}
+.ahorra{
+    font-size: 17px;
+    width:80%;
+    margin-top: -11vh;
+    margin-left: 60%;
+}
+.precioOtro{
+    font-size: 23px;
+    margin-top: -16vh;
+    margin-left: 160%;
+}
+.menos{
+    width:30%
+}
+.mas{
+    width: 30%;
+    margin-left: -1%;
+}
+.hacer{
+    margin-left: -3%;
+}
+.todas{
+    margin-left: -23%;
+}
+.todas img{
+    width: 93%;
+    height: 23vh;
+} 
+.ex{
+    width:80%;
+    margin-left: 13%;
+}
+.verCar{
+    margin-left: -7%;
+}
+
+.texBot{
+    margin-left: 3%;
+}
+.men{
+    width: 83%;
+    height: 313vh;
+    background-color: white;
+    z-index: 3;
+    margin-top: -113vh;
+    margin-left: -3%;
+    position: absolute;
+}
+.tar{
+    width: 73%;
+    height: 313vh;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 1;
+    margin-left: 97%;
+    margin-top: -20vh;
+}
+.otras{
+    width: 89%;
+    font-family: 'Days One', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: 13%;
+    margin-top: 23vh;
+    position: absolute;
+    color: grey;
+}
+.sobre{
+    width:89%;
+    font-family: 'Days One', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: 13%;
+    margin-top: 41vh;
+    position:absolute;
+    color:grey
+}
+.contactos{
+    font-family: 'Days One', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: 13%;
+    margin-top: 60vh;
+    position: absolute;
+    color: grey;
+}
+.menu{
+    width:30%;
+    margin-left: 80%;
+    margin-top: 10vh;
+    color: grey;
+    font-size: 43px;
+    font-family: 'Courier New';
+    font-weight: 900;
+    cursor: pointer;
+}
+.bar{
+    display: none;
+}
+.rar{
+    width: 13%;
+    height: 8vh;
+    margin-left: 6%;
+    margin-top: -101vh;
+    position: absolute;
+    cursor: pointer;
+    
+}
+
+.car{
+    margin-left: 107%;
+    position: absolute;
+    width: 20%;
+    margin-top: 3vh;
+}
+
 }

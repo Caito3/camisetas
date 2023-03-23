@@ -10,7 +10,6 @@ function traer(){
     agran.style.display = "none"
 }
 var a = 0
-
 function mas (){
 
     if ( a >= 0){
@@ -20,9 +19,6 @@ function mas (){
     carro.value = a
     }
 }
-
-
-
 function menos(){
     if ( a > 0){
     a -= 1
@@ -58,4 +54,12 @@ function pag(){
     
     pagar.innerHTML = prod
     pagar.style.display="block"
+}
+function menu(){
+var ar = document.getElementById("hacer") 
+ar.style.display ="block"
+}
+function ar(){
+    var ra = document.getElementById("hacer")
+    ra.style.display="none"
 }
