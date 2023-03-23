@@ -377,6 +377,15 @@ transform: scale(1.1);
 }
 
 
+.otras{
+    display: none;
+}
+.sobre{
+    display: none;
+}
+.contactos{
+    display: none;
+}
 .rar{
     display: none;
 }
